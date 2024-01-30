@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="224dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginBottom="518dp"
+        android:alpha="1"
+        android:background="#DAB6B6"
+        android:text="Welcome to Match Cards"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="275dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginBottom="358dp"
+        android:alpha="1"
+        android:autofillHints=""
+        android:background="#DAB6B6"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#78909C"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="275dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="394dp"
+        android:layout_marginBottom="292dp"
+        android:alpha="1"
+        android:background="#DAB6B6"
+        android:ems="10"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColorHint="#78909C"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="531dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="267dp"
+        android:text="@string/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
